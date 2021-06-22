@@ -5,12 +5,12 @@ import Product from './Product/Product';
 import useStyles from './styles';
 
 
-const products=[
-    {id:1,name:'Shoes',description:'Running shoes.',price:'$5',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWw4K-XBiDoEMQ3wbDpJ0HGSIWOzulhDpaA&usqp=CAU'},
-    {id:2,name:'Macbook',description:'Apple macbook.',price:'$100',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk-EZYbHugIlZm9E9uGJ4rmsQlwd7tsGSO_Q&usqp=CAU'}
-]
+// const products=[
+//     {id:1,name:'Shoes',description:'Running shoes.',price:'$5',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWw4K-XBiDoEMQ3wbDpJ0HGSIWOzulhDpaA&usqp=CAU'},
+//     {id:2,name:'Macbook',description:'Apple macbook.',price:'$100',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk-EZYbHugIlZm9E9uGJ4rmsQlwd7tsGSO_Q&usqp=CAU'}
+// ]
 
-const Products = () => {
+const Products = ({products}) => {
     const classes=useStyles();
     return( 
         <main className={classes.content}>
