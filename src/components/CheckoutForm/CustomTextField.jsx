@@ -6,7 +6,6 @@ const CustomTextField = ({name, label,required}) => {
   const { control } = useFormContext();
   return (
     <Grid item xs={12} sm={6}>
-        salom
         <Controller
                 control={control}
                 name={name}
